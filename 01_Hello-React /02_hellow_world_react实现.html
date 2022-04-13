@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>Header</div>
+<div id="app">app</div>
+<div>Footer</div>
+
+<!--添加React的依赖-->
+<!--crossorigin 是为了拿到跨域脚本的错误信息-->
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<!--开始开发-->
+<!--注意事项：使用jsx，并且希望script中的jsx代码被解析，必须在script标签中添加一个属性-->
+<!--ReactDOM.render(渲染的内容，挂载的对象)-->
+
+<script type="text/babel">
+    ReactDOM.render(<h2>hello world</h2>, document.getElementById("app"));
+</script>
+
+</body>
+</html>
