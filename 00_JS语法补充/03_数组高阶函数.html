@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    const names = ['abc', 'cba', 'nba', 'mba'];
+
+    /**
+     * .map(回调函数, 给前面的回调函数绑定this)
+     *
+     * 回调函数有三个参数
+     * 参数1、执行时的对应元素
+     * 参数2、对应的下标值
+     * 参数3、完整的数组对象
+     */
+    const newNames = names.map((item, index, arr) => {
+        return item + '000';
+    });
+
+    console.log(newNames);
+
+</script>
+
+</body>
+</html>
