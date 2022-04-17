@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app"></div>
+
+<!--1、引入依赖-->
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<!--2、编写react代码-->
+<script type="text/babel">
+    class App extends React.Component {
+        constructor() {
+            super();
+
+            this.state = {
+                title: '标题',
+                imgUrl: 'https://img2.baidu.com/it/u=3560301646,1658327061&fm=253&fmt=auto&app=120&f=JPEG?w=1151&h=767',
+                link: 'http://www.baidu.com',
+            }
+        }
+
+        render() {
+            return (
+                <div>
+                    {/* 1、绑定普通属性 */}
+                    <h2 title={this.state.title}>我是标题</h2>
+
+                    {/* _blank 在新页面打开 */}
+                    <a href={this.state.link} target="_blank">百度一下</a>
+
+
+                    <img src={this.state.imgUrl} alt={'未显示展示'}/>
+
+                    {/* 2、绑定class：用className代替class（class属于关键字） */}
+                    <div className="boxTitle">我是div元素</div>
+
+                    {/* 3、版定style*/}
+                    <div style={{
+                        color: 'red',
+                        fontSize: 15,
+                    }}>我是div,版定style属性
+                    </div>
+                </div>
+            );
+        }
+    }
+    ReactDOM.render(<App/>, document.getElementById("app"));
+</script>
+
+</body>
+</html>

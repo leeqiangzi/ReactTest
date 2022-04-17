@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div id="app"></div>
+
+<!--1、引入依赖-->
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<!--2、编写react代码-->
+<script type="text/babel">
+    class App extends React.Component {
+        constructor() {
+            super();
+
+            this.state = {}
+
+            // 方案一：构造器绑定
+            // this.btnClick = this.btnClick.bind(this);
+        }
+
+        render() {
+            return (
+                <div>
+                    {/* 并不是直接调用，而是通过react内部调用的，在执行过程中动态绑定的 */}
+                    {/* 方案一：bind绑定this（显示绑定） */}
+                    <button onClick={this.btnClick.bind(this)}>按钮</button>
+
+                    <button onClick={this.increment}>+1</button>
+
+                    <button onClick={()=>{this.decrement()}}>-1</button>
+                </div>
+            );
+        }
+
+        btnClick() {
+            console.log(this)
+        }
+
+        // 方案二：箭头函数（箭头函数永远不绑定this，查找上一层作用域🌟🌟🌟🌟🌟）
+        increment = () => {
+            console.log(this)
+        }
+
+        decrement() {
+            console.log(this)
+        }
+    }
+
+    ReactDOM.render(<App/>, document.getElementById("app"));
+</script>
+
+</body>
+</html>
