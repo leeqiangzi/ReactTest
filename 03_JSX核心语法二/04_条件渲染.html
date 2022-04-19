@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div id="app"></div>
+
+<!--1、引入依赖-->
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<!--2、编写react代码-->
+<script type="text/babel">
+    class App extends React.Component {
+        constructor() {
+            super();
+
+            this.state = {
+                isLogin: true,
+            }
+        }
+
+        render() {
+            // 1、通过if判断：逻辑代码非常多的情况
+            let welcome = null;
+            let btnText = null;
+            if(this.state.isLogin) {
+                welcome = <h2>欢迎回来</h2>;
+                btnText = '退出';
+            } else {
+                welcome = <h2>请先登录</h2>;
+                btnText = '登录';
+            }
+
+            return (
+                <div>
+                    {welcome}
+                    <button onClick={(e) => {
+                        this.loginClick();
+                    }}>
+                        {btnText}
+                    </button>
+
+                    <hr/>
+
+                    {/*逻辑与：一个条件不成立，后面的条件都不会进行判断了*/}
+                    <h2>{this.state.isLogin && '你好啊，codewhy'}</h2>
+                </div>
+            );
+        }
+
+        loginClick() {
+            this.setState({
+                isLogin: !this.state.isLogin,
+            });
+        }
+    }
+
+    ReactDOM.render(<App/>, document.getElementById("app"));
+</script>
+
+</body>
+</html>
