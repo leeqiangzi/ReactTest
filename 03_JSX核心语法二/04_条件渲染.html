@@ -40,6 +40,7 @@
             return (
                 <div>
                     {welcome}
+                    {/*2、三元运算符*/}
                     <button onClick={(e) => {
                         this.loginClick();
                     }}>
@@ -48,6 +49,7 @@
 
                     <hr/>
 
+                    {/*3、逻辑与*/}
                     {/*逻辑与：一个条件不成立，后面的条件都不会进行判断了*/}
                     <h2>{this.state.isLogin && '你好啊，codewhy'}</h2>
                 </div>
