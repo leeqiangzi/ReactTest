@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div id="app"></div>
+
+<!--1、引入依赖-->
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<!--2、编写react代码-->
+<script type="text/babel">
+    class App extends React.Component {
+        constructor() {
+            super();
+
+            this.state = {}
+        }
+
+        render() {
+            return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+                className: "header"
+            }, /*#__PURE__*/React.createElement("h1", {
+                title: "\u6807\u9898"
+            }, "\u6211\u662F\u6807\u9898")), /*#__PURE__*/React.createElement("div", {
+                className: "content"
+            }, /*#__PURE__*/React.createElement("h2", {
+                title: "\u6807\u9898"
+            }, "\u6211\u662F\u5185\u5BB9"), /*#__PURE__*/React.createElement("button", null, "\u6309\u94AE"), /*#__PURE__*/React.createElement("button", null, "+1"), /*#__PURE__*/React.createElement("a", {
+                href: "https://www.baidu.com"
+            }, "\u767E\u5EA6\u4E00\u4E0B")), /*#__PURE__*/React.createElement("div", {
+                className: "footer"
+            }, /*#__PURE__*/React.createElement("p", null, "\u6211\u662F\u5C3E\u90E8\u5185\u5BB9")))
+                ;
+        }
+    }
+
+    // babel转换：https://babeljs.io
+
+    ReactDOM.render(<App/>, document.getElementById("app"));
+</script>
+
+</body>
+</html>
