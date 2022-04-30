@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div id="app"></div>
+
+<!--1、引入依赖-->
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<!--2、编写react代码-->
+<script >
+    class App extends React.Component {
+        constructor() {
+            super();
+        }
+
+        render() {
+            /**
+             * React：jsx-> createElement函数 -> ReactElement（对象树）-> ReactDOM.render -> 真实DOM
+             *
+             * ReactNative：jsx-> createElement函数 -> ReactElement（对象树）-> ReactDOM.render -> 原生的控件（UIButton/Button）
+            /
+
+            /*#__PURE__*/
+            const result = React.createElement("div", {
+                className: "app"
+            }, /*#__PURE__*/React.createElement("div", {
+                className: "header"
+            }, /*#__PURE__*/React.createElement("h1", {
+                title: "\u6807\u9898"
+            }, "\u6211\u662F\u7F51\u7AD9\u6807\u9898")), /*#__PURE__*/React.createElement("div", {
+                className: "content"
+            }, /*#__PURE__*/React.createElement("h2", null, "\u6211\u662Fh2\u5143\u7D20"), /*#__PURE__*/React.createElement("button", {
+                onClick: e => console.log("+1")
+            }, "+1"), /*#__PURE__*/React.createElement("button", {
+                onClick: e => console.log("+1")
+            }, "-1")), /*#__PURE__*/React.createElement("div", {
+                className: "footer"
+            }, /*#__PURE__*/React.createElement("p", null, "\u6211\u662F\u7F51\u7AD9\u7684\u5C3E\u90E8")));
+
+
+            console.log(result);
+
+            return result;
+        }
+    }
+
+    ReactDOM.render(React.createElement(App, null) , document.getElementById("app"));
+</script>
+
+</body>
+</html>
