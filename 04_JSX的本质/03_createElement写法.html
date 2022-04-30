@@ -15,35 +15,34 @@
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
 <!--2、编写react代码-->
-<script type="text/babel">
+<script >
     class App extends React.Component {
         constructor() {
             super();
-
-            this.state = {}
         }
 
         render() {
-            return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+            /*#__PURE__*/
+            const result = React.createElement("div", {
+                className: "app"
+            }, /*#__PURE__*/React.createElement("div", {
                 className: "header"
             }, /*#__PURE__*/React.createElement("h1", {
                 title: "\u6807\u9898"
-            }, "\u6211\u662F\u6807\u9898")), /*#__PURE__*/React.createElement("div", {
+            }, "\u6211\u662F\u7F51\u7AD9\u6807\u9898")), /*#__PURE__*/React.createElement("div", {
                 className: "content"
-            }, /*#__PURE__*/React.createElement("h2", {
-                title: "\u6807\u9898"
-            }, "\u6211\u662F\u5185\u5BB9"), /*#__PURE__*/React.createElement("button", null, "\u6309\u94AE"), /*#__PURE__*/React.createElement("button", null, "+1"), /*#__PURE__*/React.createElement("a", {
-                href: "https://www.baidu.com"
-            }, "\u767E\u5EA6\u4E00\u4E0B")), /*#__PURE__*/React.createElement("div", {
+            }, /*#__PURE__*/React.createElement("h2", null, "\u6211\u662Fh2\u5143\u7D20"), /*#__PURE__*/React.createElement("button", {
+                onClick: e => console.log("+1")
+            }, "+1"), /*#__PURE__*/React.createElement("button", {
+                onClick: e => console.log("+1")
+            }, "-1")), /*#__PURE__*/React.createElement("div", {
                 className: "footer"
-            }, /*#__PURE__*/React.createElement("p", null, "\u6211\u662F\u5C3E\u90E8\u5185\u5BB9")))
-                ;
+            }, /*#__PURE__*/React.createElement("p", null, "\u6211\u662F\u7F51\u7AD9\u7684\u5C3E\u90E8")));
+            return result;
         }
     }
 
-    // babel转换：https://babeljs.io
-
-    ReactDOM.render(<App/>, document.getElementById("app"));
+    ReactDOM.render(React.createElement(App, null) , document.getElementById("app"));
 </script>
 
 </body>
