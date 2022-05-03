@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68cba474-9a4e-4a84-9c67-54c2f9259507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/04_learn_components.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_组件的定义方式/01_组件的定义.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/01_组件的定义方式/02_render的返回值.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02_组件的生命周期/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_组件间的通信/01_组件间的嵌套.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_组件间的通信/02_父传子通信-类组件.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_组件间的通信/03_父传子通信-函数组件.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/03_组件间的通信/04_父传子通信-属性验证.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/03_组件间的通信/04_父传子通信-属性验证.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_组件间的通信/04_父传子通信-属性验证.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -100,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/03_组件间的通信/04_父传子通信-属性验证.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="414">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -262,12 +253,12 @@
       <option name="presentableId" value="Default" />
       <updated>1651466837378</updated>
       <workItem from="1651466841031" duration="4136000" />
-      <workItem from="1651541021657" duration="2784000" />
+      <workItem from="1651541021657" duration="3246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6920000" />
+    <option name="totallyTimeSpent" value="7382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1430" height="796" extended-state="0" />
@@ -365,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/03_组件间的通信/04_父传子通信-属性验证.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="414">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
