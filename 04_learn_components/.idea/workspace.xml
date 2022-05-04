@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68cba474-9a4e-4a84-9c67-54c2f9259507" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/03_组件间的通信/04_父传子通信-属性验证.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/03_组件间的通信/04_父传子通信-属性验证.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03_组件间的通信/05_子传父通信-函数传递.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_组件通信案例/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_组件通信案例/TabControl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/04_组件通信案例/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/05_React实现slot/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/05_React实现slot/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/05_React实现slot/NavBar2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/05_React实现slot/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/06_跨组件通信/01_跨组件通信-props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/06_跨组件通信/02_跨组件通信-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/06_跨组件通信/03_跨组件通信-context-函数组件.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/06_跨组件通信/04_多个context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/01_组件的定义方式/01_组件的定义.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/01_组件的定义方式/01_组件的定义.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,94 +33,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/01_组件的定义方式/01_组件的定义.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="13" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/01_组件的定义方式/02_render的返回值.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="12" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/02_组件的生命周期/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/03_组件间的通信/01_组件间的嵌套.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/03_组件间的通信/02_父传子通信-类组件.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/03_组件间的通信/03_父传子通信-函数组件.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/03_组件间的通信/04_父传子通信-属性验证.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="198">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
+        <entry file="file://$PROJECT_DIR$/src/05_React实现slot/NavBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="309" column="9" selection-start-line="309" selection-start-column="9" selection-end-line="309" selection-end-column="9" />
+            <state relative-caret-position="360">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/05_React实现slot/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/05_React实现slot/NavBar2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/06_跨组件通信/01_跨组件通信-props.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/06_跨组件通信/02_跨组件通信-context.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-336">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/06_跨组件通信/03_跨组件通信-context-函数组件.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="22" column="30" lean-forward="true" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/06_跨组件通信/04_多个context.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="48" column="5" lean-forward="true" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/04_组件通信案例/TabControl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/04_组件通信案例/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -115,6 +134,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -131,8 +151,21 @@
         <option value="$PROJECT_DIR$/src/03_组件间的通信/01_组件间的嵌套.js" />
         <option value="$PROJECT_DIR$/src/03_组件间的通信/02_父传子通信-类组件.js" />
         <option value="$PROJECT_DIR$/src/03_组件间的通信/03_父传子通信-函数组件.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/03_组件间的通信/04_父传子通信-属性验证.js" />
+        <option value="$PROJECT_DIR$/src/03_组件间的通信/05_子传父通信-函数传递.js" />
+        <option value="$PROJECT_DIR$/src/04_组件通信案例/style.css" />
+        <option value="$PROJECT_DIR$/src/04_组件通信案例/TabControl.js" />
+        <option value="$PROJECT_DIR$/src/04_组件通信案例/App.js" />
+        <option value="$PROJECT_DIR$/src/05_React实现slot/NavBar.js" />
+        <option value="$PROJECT_DIR$/src/05_React实现slot/style.css" />
+        <option value="$PROJECT_DIR$/src/05_React实现slot/App.js" />
+        <option value="$PROJECT_DIR$/src/05_React实现slot/NavBar2.js" />
+        <option value="$PROJECT_DIR$/src/06_跨组件通信/App.js" />
+        <option value="$PROJECT_DIR$/src/06_跨组件通信/01_跨组件通信-props.js" />
+        <option value="$PROJECT_DIR$/src/06_跨组件通信/02_跨组件通信-context.js" />
+        <option value="$PROJECT_DIR$/src/06_跨组件通信/03_跨组件通信-context-函数组件.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/06_跨组件通信/04_多个context.js" />
       </list>
     </option>
   </component>
@@ -158,48 +191,19 @@
             <path>
               <item name="04_learn_components" type="b2602c69:ProjectViewProjectNode" />
               <item name="04_learn_components" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04_learn_components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04_learn_components" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04_learn_components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04_learn_components" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-              <item name="cjs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04_learn_components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04_learn_components" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04_learn_components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04_learn_components" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="04_learn_components" type="b2602c69:ProjectViewProjectNode" />
               <item name="04_learn_components" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="01_组件的定义方式" type="462c0819:PsiDirectoryNode" />
+              <item name="05_React实现slot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="04_learn_components" type="b2602c69:ProjectViewProjectNode" />
               <item name="04_learn_components" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="02_组件的生命周期" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="04_learn_components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="04_learn_components" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="03_组件间的通信" type="462c0819:PsiDirectoryNode" />
+              <item name="06_跨组件通信" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,7 +214,8 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/03_组件间的通信" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/06_跨组件通信" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -226,6 +231,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/06_跨组件通信" />
+      <recent name="$PROJECT_DIR$/src/05_React实现slot" />
       <recent name="$PROJECT_DIR$/src/03_组件间的通信" />
       <recent name="$PROJECT_DIR$/src/01_组件的定义方式" />
     </key>
@@ -253,18 +260,19 @@
       <option name="presentableId" value="Default" />
       <updated>1651466837378</updated>
       <workItem from="1651466841031" duration="4136000" />
-      <workItem from="1651541021657" duration="3246000" />
+      <workItem from="1651541021657" duration="10451000" />
+      <workItem from="1651628862149" duration="3163000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7382000" />
+    <option name="totallyTimeSpent" value="17750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1430" height="796" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24982257" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18452804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -288,13 +296,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/01_组件的定义方式/01_组件的定义.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="13" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/01_组件的定义方式/02_render的返回值.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -347,20 +348,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/03_组件间的通信/04_父传子通信-属性验证.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="258">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/01_组件的定义方式/01_组件的定义.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/03_组件间的通信/05_子传父通信-函数传递.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/04_组件通信案例/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/05_React实现slot/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/05_React实现slot/NavBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/05_React实现slot/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/04_组件通信案例/TabControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/04_组件通信案例/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/05_React实现slot/NavBar2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/06_跨组件通信/01_跨组件通信-props.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/06_跨组件通信/02_跨组件通信-context.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/06_跨组件通信/03_跨组件通信-context-函数组件.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="22" column="30" lean-forward="true" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/06_跨组件通信/04_多个context.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="48" column="5" lean-forward="true" selection-end-line="73" />
         </state>
       </provider>
     </entry>

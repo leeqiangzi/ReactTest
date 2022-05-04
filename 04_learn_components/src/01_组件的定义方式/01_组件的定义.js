@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 
 // 类组件
-// export default class App extends Component {
+// export default class 01_Props extends Component {
 //     constructor() {
 //         super();
 //
