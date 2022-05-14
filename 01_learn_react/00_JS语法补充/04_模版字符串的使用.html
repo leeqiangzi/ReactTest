@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // 1、模版字符串的使用
+    const name = 'why';
+    const message = `my name is ${name}`;
+
+    // 2、标签模版字符串：可以通过模版字符串的方式对一个函数进行调用
+    function test(...args) {
+        console.log(args)
+    }
+    test`my name is ${name}`
+
+    const color = 'red'
+    test`
+        font-sizeL 15px,
+        color: ${color}
+    `
+</script>
+
+</body>
+</html>
